@@ -193,3 +193,12 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
+
+
+# Input directory contents
+input/*
+!input/README.md
+
+# Output directory contents
+output/*
+!output/README.md
