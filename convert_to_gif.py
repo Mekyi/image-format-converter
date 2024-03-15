@@ -30,7 +30,9 @@ for file_path in files_to_convert:
     im.info.pop('background', None)
     # Fix quality
     im.save(path_to_save, 
-            'gif', save_all=True, 
-            loop=0, 
+            'gif', 
+            save_all=True,
+            disposal=2, 
+            loop=0,
             optimize=True)
     
